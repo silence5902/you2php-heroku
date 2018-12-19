@@ -1,9 +1,10 @@
 <?php
+$gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'HK';
 define('ROOT_PART', Root_part());
-define('APIKEY', 'AIzaSyDUm1v6NWtE_7vjj5rwzLGm2E5TrBBQ5oM');//这里改成您的api key
-define('GJ_CODE', 'KR');//国家代码
-define('SITE_NAME', 'Youtube');//网站名字
-define('TITLENAME', 'Youtube');//网站名字
-define('EN2DEKEY', 'AnQUP1XDEF435e67CtzDSh4');//一个随机字符串，加解密KEY
-define('EMAIL', '123@123.com');//邮箱
+define('APIKEY', 'AIzaSyDUm1v6NWtE_7vjj5rwzLGm2E5TrBBQ5oM');
+define('GJ_CODE', $gl);
+define('SITE_NAME', 'bilibili');
+define('TITLENAME', 'bilibili');
+define('EN2DEKEY', '0090909i604wkkfkak');
+define('EMAIL', '你的邮箱');
 ?>
